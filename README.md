@@ -1,3 +1,4 @@
+<p align="center"><img src="https://i.imgur.com/PV6KECM.png" alt=""></p>
 <h1 align="center">Omelete Tabs</h1>
 <p align="center">Extensão que traz as principais notícias do <a href="https://www.omelete.com.br">omelete.com.br</a> nas abas do navegador.</p>
 <p align="center">
