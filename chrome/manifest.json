@@ -1,0 +1,16 @@
+{
+  "name": "Omelete Tabs",
+  "description": "Abas com as principais notícias do omelete.com.br",
+  "version": "1.0.0",
+  "homepage_url": "https://github.com/daltonmenezes/omelete-tabs",
+  "manifest_version": 2,
+  "chrome_url_overrides": {
+    "newtab": "omelete-tabs.html"
+  },
+  "permissions": ["storage"],
+  "icons": {
+		"128": "icons/192.png",
+		 "48": "icons/96.png",
+		 "16": "icons/48.png"
+  }
+}

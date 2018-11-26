@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link id="theme" rel="stylesheet" type="text/css" href="css/dark-theme.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="shortcut icon" type="image/x-icon" href="svg/loading.svg">
+  
+  <title>Omelete | Tabs</title>
+</head>
+<body>
+  <section id="loading">
+    <img src="svg/loading.svg" alt="carregando o conteúdo..."/>
+  </section>
+
+  <header>
+    <h1>
+      <a href="https://www.omelete.com.br">Omelete Tabs</a>
+    </h1>
+    <section class="theme-switch">
+      <span id="theme-label">Tema escuro</span>
+      <input type="checkbox" name="theme-switch" class="theme-switch-checkbox" id="theme-switch" tabindex="1">
+      <label class="theme-switch-label" for="theme-switch">
+        <span class="theme-switch-inner"></span>
+        <span class="theme-switch-switch"></span>
+      </label>
+    </section>
+  </header>
+  
+  <hr/>
+  
+  <article id="news"></article>
+
+  <script src="content_scripts/helpers/remove-accent.js"></script>
+  <script src="content_scripts/handlers/tag-label-handler.js"></script>
+  <script src="content_scripts/handlers/theme-switch-handler.js"></script>
+  <script src="content_scripts/handlers/theme-handler.js"></script>
+  <script src="content_scripts/renders/news-render.js"></script>
+  <script src="content_scripts/api-config.js"></script>
+  <script src="content_scripts/fetch-news.js"></script>
+  <script src="content_scripts/init.js"></script>  
+</body>
+</html>

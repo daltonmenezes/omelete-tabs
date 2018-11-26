@@ -1,0 +1,16 @@
+body {
+  background-color: #181818;
+}
+
+hr {
+  border-top: 1px solid black;
+  border-bottom: 1px solid #1d1d1d;
+}
+
+header {
+  background: #111111;
+}
+
+a {
+  color: #6e6e6e;
+}

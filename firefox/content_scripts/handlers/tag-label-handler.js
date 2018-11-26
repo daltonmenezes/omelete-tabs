@@ -1,0 +1,1 @@
+const tagLabelHandler = label => removeAccent(label).toLowerCase().split(/[/]| /g, 1)[0]
