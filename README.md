@@ -13,7 +13,6 @@
 
 # Instalação
 <a href="https://addons.mozilla.org/pt-BR/firefox/addon/omelete-tabs/"><img src="https://i.imgur.com/imhunnJ.png" alt="firefox icon" width="50"/></a>
-
 <a href="https://github.com/daltonmenezes/omelete-tabs/blob/master/CHROME_INSTRUCOES.md"><img src="https://i.imgur.com/lMue0Hb.png" alt="chrome icon"  width="50"/></a>
 
 # Licença
