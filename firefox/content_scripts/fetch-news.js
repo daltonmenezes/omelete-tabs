@@ -7,8 +7,8 @@ const fetchNews = ({ endpoint, configs }) => {
    
    const img = 
       Array
-      .from(parse.querySelectorAll('img'))
-      .map(img => img.src.replace('moz-extension://', 'https://'))
+      .from(parse.querySelectorAll('img[data-lazy-src]'))
+      .map(img => img.getAttribute('data-lazy-src').replace('//', 'https://'))
 
     const title = 
       Array
