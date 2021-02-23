@@ -1,7 +1,7 @@
 {
   "name": "Omelete Tabs",
   "description": "Abas com as últimas notícias do omelete.com.br",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage_url": "https://github.com/daltonmenezes/omelete-tabs",
   "manifest_version": 2,
   "chrome_url_overrides": {
